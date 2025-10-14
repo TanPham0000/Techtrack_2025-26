@@ -60,14 +60,16 @@ const data = [
 // function transformArrayOfObj() returns an Array of objects
 function transformArrOfObj(myData) {
     /* Write your functionality here and return the result */
+let myPerson = []
+
     data.forEach (person =>{
     let myPerson = {
         name: data[0].name,
         age: Number(data[0]).age, 
-        work: data(0). work
+        work: data(employer). work
     }
 })
 
 }
 
-console.log(myPerson)
+console.log(transformArrOfObj(data));

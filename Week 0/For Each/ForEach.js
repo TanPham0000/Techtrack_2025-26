@@ -11,11 +11,11 @@ const data = [
 
 function convertToString() {
     /* Your code here should return to the console one String containing all the elements of array data . */
-    for (let i = 0; i < stringArray.length; i++) {
-    numberArray.push(([i]));
-}
+    let result = "";
+    for (let i = 0; i < data.length; i++) {
+        result += data[i];
+    }
+    console.log(result);
 }
 
 convertToString()
-
-
