@@ -50,11 +50,11 @@ function transformArrOfObj(myObj) {
     /* Write your functionality here and return the result */
     let result = [];
     data.forEach (person =>{
-    let myPerson = {
-        name: person.name.charAt(0).toUpperCase() + person.name.slice(1),
-        age: Number(person.age),
-        work: person.curriculum[0]
-    }
+        let myPerson = {
+            name: person.name.charAt(0).toUpperCase() + person.name.slice(1),
+            age: Number(person.age),
+            work: person.curriculum[0]
+        }
     result.push(myPerson);
 })
     return result;

@@ -33,43 +33,36 @@ const data = [
 
 
 
-/* Normalize capitals in names, convert ages to numbers, remove siblings and work title 
-   but keep employer as attribute.
+/* Filter by age, normalize capitals in names, convert ages to numbers, remove work.
     const data = [
         {
             name: "Robert",
             age: 29,
+            siblings: 1,
             residence: "Amsterdam",
-            employer: "Hogeschool van Amsterdam"
         },
         {
             name: "Berend",
             age: 32,
+            siblings: 0,
             residence: "Rotterdam",
-            employer: "DEPT"
-        },
-        {
-            name: "ubaida",
-            age: "26",
-            residence: "Amersfoort",
-            employer: "Clarify"
         }
     ];
 */
 
-// function transformArrayOfObj() returns an Array of objects
-function transformArrOfObj(myData) {
-    /* Write your functionality here and return the result */
-let myPerson = []
-
-    data.forEach (person =>{
-    let myPerson = {
-        name: data[0].name,
-        age: Number(data[0]).age, 
-        work: data(employer). work
-    }
-})
+// hulpfunctie die objecten uit array data transformeret naar het gewenste formaat
+// en het object teruggeeft
+function transformPerson(person) {
 
 }
 
-console.log(transformArrOfObj(data));
+// transformeer array data met behulp van de map-functie en sla het resultaat op 
+// in varabele transformedData
+
+// toon in de console een array met alle de personen, ouder dan 26
+
+// laat de som zien van van de broertjes/zusjes van personen, ouder dan 26
+// console.log(filteredData.reduce((acc, item) => acc + item.siblings, 0));
+
+
+// In één statement

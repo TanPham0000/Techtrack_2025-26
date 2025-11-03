@@ -1268,6 +1268,10 @@ const countries = [
     }
 ]
 
+let normalizedCountries, southAsianCountries
+let southAsianPopulation
+let southAsianMaxLifeExpectancy
+
 // function normalizeCountry() fixes some secondary issues concerning the objects in array countries:
 // parameter myCountry is an object with the same structure as objects in array country.
 // function normalizeCountry() returns an object with the same structure of the objects in array countries, but
@@ -1276,37 +1280,44 @@ const countries = [
 // the values of attributes income and lifeExpectancy show 2 decimals. 
 // the name of attribute income is changed to avgIncome
 function normalizeCountry(myCountry) {
-    return {
-        name: myCountry.name,
-        region: myCountry.region,
-        avgIncome: Number(myCountry.income.toFixed(2)),
-        population: Math.round(myCountry.population),
-        lifeExpectancy: Number(myCountry.lifeExpectancy.toFixed(2))
-    }
+    // here your code
+
 }
 
-// format array countries
-const formattedCountries = countries.map(normalizeCountry);
+// format array country
+// normalizedCountries = 
 
-// Fill array southAsianCountries with  the objects of array countries representing countries in South Asia
-const southAsianCountries = formattedCountries.filter(country => country.region === "South Asia");
-console.log(formattedCountries.filter(myCountry => myCountry.region === "South Asia"));
+// select the objects of array countries representing countries in South Asia
+// southAsianCountries =
 
 // calculate the total population of South Asia
 // southAsianPopulation =
-const southAsianPopulation = southAsianCountries.reduce((total, country) => total + country.population, 0);
-console.log(southAsianPopulation);
-
 
 // calculate the maximum life expectancy of a country in South Asia
-// soutAsianMaxLifeExpectancy =
+// SoutAsianMaxLifeExpectancy =
+
+// calculate the total population of South Asia
+// southAsianPopulation =
 
 
+// can you calculate the max life expectancy of the south Asian countries with one statement?
 
-console.log()
+// repeat for sub-Saharan Africa and the Americas
+
+console.log("South Asia")
 // console.log(southAsianCountries)
 // console.log(southAsianPopulation)
 // console.log(southAsianMaxLifeExpectancy)
+
+// console.log("Americas")
+// console.log(americanCountries)
+// console.log(americanPopulation)
+// console.log(americanMaxLifeExpectancy)
+
+// console.log("Sub-Saharan Africa")
+// console.log(subSaharanCountries)
+// console.log(subSaharanPopulation)
+// console.log(subSaharanMaxLifeExpectancy)
 
 
 

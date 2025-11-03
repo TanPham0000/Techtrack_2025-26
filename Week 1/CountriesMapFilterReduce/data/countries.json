@@ -1,11 +1,4 @@
-// countries is an Array of Objects, having the following attributes
-// "name": String,
-// "region": String in ["Sub-Saharan Africa", "Middle East & North Africa", "South Asia", 
-//                      "America","Europe & Central Asia", "East Asia & Pacific"],
-// "income": Number,
-// "population": Number,
-// "lifeExpectancy": Number
-const countries = [
+[
     {
         "name": "Angola",
         "region": "Sub-Saharan Africa",
@@ -1267,51 +1260,3 @@ const countries = [
         "lifeExpectancy": 69.55282191780822
     }
 ]
-
-// function normalizeCountry() fixes some secondary issues concerning the objects in array countries:
-// parameter myCountry is an object with the same structure as objects in array country.
-// function normalizeCountry() returns an object with the same structure of the objects in array countries, but
-// where the value of the following attriubutes is formatted:
-// attribute population is an integer, 
-// the values of attributes income and lifeExpectancy show 2 decimals. 
-// the name of attribute income is changed to avgIncome
-function normalizeCountry(myCountry) {
-    return {
-        name: myCountry.name,
-        region: myCountry.region,
-        avgIncome: Number(myCountry.income.toFixed(2)),
-        population: Math.round(myCountry.population),
-        lifeExpectancy: Number(myCountry.lifeExpectancy.toFixed(2))
-    }
-}
-
-// format array countries
-const formattedCountries = countries.map(normalizeCountry);
-
-// Fill array southAsianCountries with  the objects of array countries representing countries in South Asia
-const southAsianCountries = formattedCountries.filter(country => country.region === "South Asia");
-console.log(formattedCountries.filter(myCountry => myCountry.region === "South Asia"));
-
-// calculate the total population of South Asia
-// southAsianPopulation =
-const southAsianPopulation = southAsianCountries.reduce((total, country) => total + country.population, 0);
-console.log(southAsianPopulation);
-
-
-// calculate the maximum life expectancy of a country in South Asia
-// soutAsianMaxLifeExpectancy =
-
-
-
-console.log()
-// console.log(southAsianCountries)
-// console.log(southAsianPopulation)
-// console.log(southAsianMaxLifeExpectancy)
-
-
-
-
-
-
-
-
