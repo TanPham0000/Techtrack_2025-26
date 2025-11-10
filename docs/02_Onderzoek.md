@@ -1,22 +1,36 @@
-Wiki
+# 02 Onderzoek
+# API zoektocht
+Eerste gedachtes en bekeken API's
+Noorderlicht:
+API: https://openweathermap.org/api 
+Een van mijn eerste ideeën was om iets te doen met het noorderlicht: een kaart die laat zien waar en wanneer je het kunt zien, gekoppeld aan weer- en lichtomstandigheden.
+De documentatie van OpenWeatherMap is superduidelijk, en je kunt makkelijk data binnenhalen over bewolking, windrichting, temperatuur en zonactiviteit. 
+Het leek me tof om een visuele kaart te maken waar je realtime ziet of het "noorderlicht-potentieel" hoog is. Uiteindelijk heb ik dit concept even geparkeerd, omdat ik meer richting nieuws en wereldwijde data wilde.
 
-Week 1
-API zoeken:
-opties: NS OV fiets, Schiphol, Wereld nieuws
+NS 
+API: https://apiportal.ns.nl/ 
+Een ander idee was om te kijken naar reistijd, vertragingen of het gebruik van OV-fietsen tussen Amsterdam en Haarlem.
+De NS heeft echt fantastische documentatie, overzichtelijk, goed beschreven en makkelijk te gebruiken. Hiermee zou ik bijvoorbeeld kunnen visualiseren hoeveel vertragingen er op een specifieke route zijn, of hoe vaak een trein uitvalt per dag.
 
+# Wereld nieuws
+Ik vind het interessant om te onderzoeken waar het meeste nieuws vandaan komt. Wordt er bijvoorbeeld meer geschreven over de VS dan over Afrika of Zuid-Amerika? En welke landen krijgen het minst aandacht?
+Het probleem is dat veel van deze API’s duur zijn of beperkte locatie-informatie geven.
+Een mogelijke oplossing is om headlines te filteren op keywords of landnamen dat kan bijvoorbeeld met de World News API of NewsAPI.
+Wereld nieuws api:
+https://newsapi.org/docs/get-started https://countrylayer.com/?utm_source=APILayerProductPage&utm_medium=Referral https://developer.ap.org/ap-metadata-services/ https://github.com/TheAssociatedPress/APISamples/blob/master/APMS/annotations.md
+https://worldnewsapi.com/ te duur, 50 api calls per dag
+https://pudding.cool/2018/12/countries/ 
+https://developer.nytimes.com/ 
+https://mediastack.com/documentation 
 
-
-Wel een aantal problemen omdat de Api's duur zijn of niet locatie data aangeven
-Wereld nieuws api: 
-https://newsapi.org/docs/get-started
-https://countrylayer.com/?utm_source=APILayerProductPage&utm_medium=Referral
-https://developer.ap.org/ap-metadata-services/
-https://github.com/TheAssociatedPress/APISamples/blob/master/APMS/annotations.md
-
-Lokaal zoeken
 Nederlands nieuws:
-https://newsapi.org/s/netherlands-news-api
-https://docs.gnews.io/
+https://newsapi.org/s/netherlands-news-api 
+https://docs.gnews.io/ 
+
+# Post gedrag op Reddit
+API: https://www.reddit.com/dev/api 
+Een iets andere invalshoek was om te kijken naar postgedrag op Reddit.
+Bijvoorbeeld: over welke landen of onderwerpen wordt het meest gepost, of welke thema’s wereldwijd trending zijn. De Reddit API is gratis en redelijk uitgebreid, dus het zou leuk zijn om te combineren met sentimentanalyse of geografische data.
 
 Concept
 Techtrack concept – Flight Tracker API

@@ -12,7 +12,7 @@ Dit is een interactieve webapplicatie ontwikkeld voor de minor Information Desig
 
 ## 🗺 Navigatie & Volledige Documentatie
 
-Voor een gedetailleerd overzicht van het project, de technische keuzes, de voortgang en de reflectie, raadpleeg de documentatiemap:
+Voor een gedetailleerd overzicht van het project, de technische keuzes, de voortgang en de reflectie, documentatiemap:
 
 | Document | Focus | Status |
 | :--- | :--- | :--- |
@@ -24,4 +24,4 @@ Voor een gedetailleerd overzicht van het project, de technische keuzes, de voort
 | **[06_Reflectie.md](docs/06_Reflectie.md)** | Conclusies en leermomenten | To Do |
 
 **Voortgang Tracking:**
-Bekijk de **[GitHub Projects Tab](link-naar-je-github-project-bord)** voor de actuele planning, taken en status.
+Bekijk de **[GitHub Projects Tab](https://github.com/TanPham0000/FlightTracker)** voor de actuele planning, taken en status.
