@@ -11,9 +11,6 @@ Dit is een interactieve webapplicatie ontwikkeld voor de minor Information Desig
 ---
 
 ## 🗺 Navigatie & Volledige Documentatie
-
-Voor een gedetailleerd overzicht van het project, de technische keuzes, de voortgang en de reflectie, documentatiemap:
-
 | Document | Focus | Status |
 | :--- | :--- | :--- |
 | **[01_Inleiding.md](docs/01_Inleiding.md)** | Doel, tools en projectbeschrijving | **Definitief** |
@@ -25,3 +22,5 @@ Voor een gedetailleerd overzicht van het project, de technische keuzes, de voort
 
 **Voortgang Tracking:**
 Bekijk de **[GitHub Projects Tab](https://github.com/TanPham0000/FlightTracker)** voor de actuele planning, taken en status.
+
+https://docs.aviationapi.com/
